@@ -1,0 +1,319 @@
+:root {
+    --debug: 1px solid red;
+    --template-dark: #65451F ;
+    --template-medium: #765827;
+    --template-light: #C8AE7D;
+    --template-superlight: #EAC696;
+    --template-dark-rgba: 101, 69, 31;
+    
+  }
+
+body{
+    font-family: sans-serif;
+    color: #333;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    background-color: var(--template-superlight);
+    margin: 10px;
+    padding: 5px;
+}
+
+.navbar{
+    /* border: var(--debug); */
+    display: flex;
+    background-color: var(--template-superlight);
+}
+
+.logo{
+    /* border: var(--debug); */
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    /* border: var(--debug); */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+ul li{
+    margin: 0 1rem;
+}
+
+ul a{
+    text-decoration: none;
+    color: #333;
+    margin: 25px;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header-container{
+    /* border: var(--debug); */
+    padding: 1.5rem 1.5rem;
+    border-radius: 2rem;
+    background-color: rgba(var(--template-dark-rgba),0.85);
+    /* opacity: 0.3; */
+}
+
+.log {
+    border-style: solid;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+    border-color: var(--template-medium);
+    border-radius: 100px;
+    font-weight: 600;
+    margin: 0 5px;
+    padding: 5px 0;
+    color: var(--template-medium);
+    background-color: white;
+}
+
+.reg{
+    border-style: solid;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+    border-color: var(--template-medium);
+    border-radius: 100px;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 5px 0;
+    color: white;
+    background-color:var(--template-medium);
+}
+
+header{
+    /* border: var(--debug); */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&q=80&w=2861&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    /* opacity: 0.8; */
+}
+
+.header-info{
+    width: 650px;
+    text-align: center;
+    color: white;
+    /* border: var(--debug) */
+}
+
+.subscribe input{
+    border-style: solid;
+    border-radius: 10px;
+    width: 200px;
+    background-color: var(--template-superlight);
+}
+.subscribe button{
+    border-style: solid;
+    border-radius: 10px; 
+    background-color: var(--template-light); 
+    padding: 0.3rem 1rem; 
+    border-color: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.subscribe button:hover{
+    border-style: solid;
+    border-radius: 10px; 
+    background-color: var(--template-superlight); 
+    padding: 0.3rem 1rem; 
+    border-color: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.product{
+    background: var(--template-superlight);
+}
+
+.product-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+
+}
+
+.product-item{
+    /* border: var(--debug); */
+    padding: 2rem;
+    text-align: center;
+}
+
+.product-item a{
+    width: 120px;
+    padding: 0.7rem 0.7rem;
+
+    border-radius: 1.5rem;
+    background: var(--template-dark);
+
+    color: #fff;
+    border: none;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.product-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow:0 0 10px #333;
+}
+
+.function-detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    padding-left: 3rem;
+    background: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+.function-text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    /* border: var(--debug) */
+}
+
+.learn-more{
+    width: 120px;
+    padding: 0.7rem 0.5rem;
+
+    border-radius: 1.5rem;
+    background: var(--template-dark);
+
+    color: #fff;
+    border: none;
+    font-size: 0.8rem;
+}
+
+
+.function-text h2{
+    text-align: left;
+}
+
+.why-us {
+    /* border: var(--debug); */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--template-superlight);
+    background-size: cover;
+
+}
+
+.grid-container {
+    /* border: var(--debug); */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    font-size: 80%;
+}
+
+
+.grid-item {
+    /* border: var(--debug); */
+    display: flex;
+    flex-direction: column;
+    /* background-color: #3498db; */
+    background: var(--template-medium);
+    /* opacity: 0.5; */
+    color: #fff;
+    text-align: left;
+    margin: 0 70px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    height: 150px;
+    border-radius: 1rem;
+}
+.grid-item img{
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 20px;
+    /* border: var(--debug); */
+}
+.grid-item h3{
+    margin: 10px 20px;
+}
+.grid-item p{
+    margin: 0 20px;
+}
+
+
+footer {
+    background-color: var(--template-dark);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10rem;
+    margin: 1rem;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: white;
+  }
+
+h2{
+    text-align: center;
+}
+
+
+
