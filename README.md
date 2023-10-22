@@ -4,7 +4,7 @@ This is a simple landing page template created using HTML and CSS. The template 
 Features
 - HTML and CSS: The project uses HTML and CSS exclusively for its structure and styling, making it a great choice for those who prefer to avoid complex frontend frameworks.
 - Normalize.css: The template includes the normalize.css library to ensure consistent rendering and styling across different web browsers, helping you avoid browser-specific quirks.
-- Components:
+### Components
   - Top Navigation Bar: A simple navigation bar at the top of the page for easy navigation.
   - Header: A visually appealing header section to introduce your product or content.
   - Product List: A section where you can showcase your products or services, with a flexible layout using CSS Flexbox or Grid.
